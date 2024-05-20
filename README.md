@@ -9,7 +9,9 @@ In this project, we focus on the segmentation of the three primary brain tissues
 Our project employed the IBSR 18 MRI dataset, which includes 18 T1-weighted MRI images from healthy individuals, all of whom have undergone skull-stripping. This dataset was divided as follows for our project purposes:
 
 • Training set: 10 images, all with ground truth labels
+
 • Validation set: 5 images, each with ground truth labels 
+
 • Test set: 3 images, without ground truth labels
 
 The dataset is characterized by its variability in spatial resolution and intensity distribution across the images. Each image has the same number of slices (256, 128, 256), yet they differ in pixel size across different dimensions. Specifically, the dataset encompasses three distinct pixel size categories. The following table details the pixel size distribution across the training and validation sets:
